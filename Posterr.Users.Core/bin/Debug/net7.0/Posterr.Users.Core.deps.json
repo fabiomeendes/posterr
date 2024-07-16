@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Posterr.Users.Core/1.0.0": {
+        "runtime": {
+          "Posterr.Users.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Posterr.Users.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
