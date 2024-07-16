@@ -1,0 +1,12 @@
+C:\courses\posterr\Posterr.Posts.Core\bin\Debug\net7.0\Posterr.Posts.Core.deps.json
+C:\courses\posterr\Posterr.Posts.Core\bin\Debug\net7.0\Posterr.Posts.Core.dll
+C:\courses\posterr\Posterr.Posts.Core\bin\Debug\net7.0\Posterr.Posts.Core.pdb
+C:\courses\posterr\Posterr.Posts.Core\obj\Debug\net7.0\Posterr.Posts.Core.csproj.AssemblyReference.cache
+C:\courses\posterr\Posterr.Posts.Core\obj\Debug\net7.0\Posterr.Posts.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\courses\posterr\Posterr.Posts.Core\obj\Debug\net7.0\Posterr.Posts.Core.AssemblyInfoInputs.cache
+C:\courses\posterr\Posterr.Posts.Core\obj\Debug\net7.0\Posterr.Posts.Core.AssemblyInfo.cs
+C:\courses\posterr\Posterr.Posts.Core\obj\Debug\net7.0\Posterr.Posts.Core.csproj.CoreCompileInputs.cache
+C:\courses\posterr\Posterr.Posts.Core\obj\Debug\net7.0\Posterr.Posts.Core.dll
+C:\courses\posterr\Posterr.Posts.Core\obj\Debug\net7.0\refint\Posterr.Posts.Core.dll
+C:\courses\posterr\Posterr.Posts.Core\obj\Debug\net7.0\Posterr.Posts.Core.pdb
+C:\courses\posterr\Posterr.Posts.Core\obj\Debug\net7.0\ref\Posterr.Posts.Core.dll

@@ -1,0 +1,12 @@
+C:\courses\posterr\Posterr.Posts.Infrastructure\bin\Debug\net7.0\Posterr.Posts.Infrastructure.deps.json
+C:\courses\posterr\Posterr.Posts.Infrastructure\bin\Debug\net7.0\Posterr.Posts.Infrastructure.dll
+C:\courses\posterr\Posterr.Posts.Infrastructure\bin\Debug\net7.0\Posterr.Posts.Infrastructure.pdb
+C:\courses\posterr\Posterr.Posts.Infrastructure\obj\Debug\net7.0\Posterr.Posts.Infrastructure.csproj.AssemblyReference.cache
+C:\courses\posterr\Posterr.Posts.Infrastructure\obj\Debug\net7.0\Posterr.Posts.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\courses\posterr\Posterr.Posts.Infrastructure\obj\Debug\net7.0\Posterr.Posts.Infrastructure.AssemblyInfoInputs.cache
+C:\courses\posterr\Posterr.Posts.Infrastructure\obj\Debug\net7.0\Posterr.Posts.Infrastructure.AssemblyInfo.cs
+C:\courses\posterr\Posterr.Posts.Infrastructure\obj\Debug\net7.0\Posterr.Posts.Infrastructure.csproj.CoreCompileInputs.cache
+C:\courses\posterr\Posterr.Posts.Infrastructure\obj\Debug\net7.0\Posterr.Posts.Infrastructure.dll
+C:\courses\posterr\Posterr.Posts.Infrastructure\obj\Debug\net7.0\refint\Posterr.Posts.Infrastructure.dll
+C:\courses\posterr\Posterr.Posts.Infrastructure\obj\Debug\net7.0\Posterr.Posts.Infrastructure.pdb
+C:\courses\posterr\Posterr.Posts.Infrastructure\obj\Debug\net7.0\ref\Posterr.Posts.Infrastructure.dll
