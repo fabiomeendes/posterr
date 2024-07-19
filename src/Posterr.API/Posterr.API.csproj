@@ -18,8 +18,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Modules\Posts\Posterr.Posts.Application\Posterr.Posts.Application.csproj" />
     <ProjectReference Include="..\Modules\Users\Posterr.Users.Application\Posterr.Users.Application.csproj" />
     <ProjectReference Include="..\Modules\Users\Posterr.Users.Infrastructure\Posterr.Users.Infrastructure.csproj" />
+    <ProjectReference Include="..\Modules\Posts\Posterr.Posts.Infrastructure\Posterr.Posts.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

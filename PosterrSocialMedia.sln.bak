@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Posterr.Users.Core", "src\M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Posterr.Users.Infrastructure", "src\Modules\Users\Posterr.Users.Infrastructure\Posterr.Users.Infrastructure.csproj", "{D562CDDA-B2BB-4B45-A888-B5CCFCD550E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Posterr.Shared", "src\Posterr.Shared\Posterr.Shared.csproj", "{23C2ABAD-22CA-417A-9396-22B3FA95BA69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Posterr.Shared", "src\Posterr.Shared\Posterr.Shared\Posterr.Shared.csproj", "{23C2ABAD-22CA-417A-9396-22B3FA95BA69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

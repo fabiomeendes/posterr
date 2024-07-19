@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Posterr.Users.Core.Entities
+namespace Posterr.Shared.Core.Entities
 {
     public abstract class BaseEntity
     {
@@ -14,7 +14,7 @@ namespace Posterr.Users.Core.Entities
             CreatedAt = DateTime.Now;
         }
 
-        public Guid Id { get; private set; }
+        public Guid Id { get; set; }
         public DateTime CreatedAt { get; private set; }
     }
 }

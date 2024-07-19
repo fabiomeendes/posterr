@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Posterr.Users.Application.Services
+namespace Posterr.Posts.Core.Repositories
 {
-    public interface IUserService
+    public interface IPostRepository
     {
-        public Task<User?> GetByIdAsync(Guid id);
+        public Task<Guid> CreatePostAsync(Post model);
     }
 }

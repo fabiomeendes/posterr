@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Posterr.Users.Core.Entities;
+using Posterr.Shared.Core.Entities;
+using Posterr.Shared.Infra;
 using Posterr.Users.Core.Repositories;
 using System;
 using System.Collections.Generic;
@@ -11,9 +12,9 @@ namespace Posterr.Users.Infrastructure.Persistence.Repositories
 {
     public class UserRepository : IUserRepository
     {
-        private readonly UsersDbContext _context;
+        private readonly ApplicationDbContext _context;
 
-        public UserRepository(UsersDbContext context)
+        public UserRepository(ApplicationDbContext context)
         {
             _context = context;
         }

@@ -1,4 +1,4 @@
-﻿using Posterr.Users.Core.Entities;
+﻿using Posterr.Shared.Core.Entities;
 using Posterr.Users.Core.Repositories;
 using Posterr.Users.Infrastructure.Persistence.Repositories;
 using System;

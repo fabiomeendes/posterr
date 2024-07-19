@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Posterr.Posts.Core.Repositories;
+using Posterr.Posts.Infrastructure.Persistence.Repositories;
 using Posterr.Shared.Infra;
-using Posterr.Users.Core.Repositories;
-using Posterr.Users.Infrastructure.Persistence.Repositories;
 
-namespace Posterr.Users.Infrastructure
+namespace Posterr.Posts.Infrastructure
 {
     public static class InfrastructureModule
     {
@@ -29,7 +29,7 @@ namespace Posterr.Users.Infrastructure
 
         private static IServiceCollection AddRepositories(this IServiceCollection services)
         {
-            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IPostRepository, PostRepository>();
 
             return services;
         }
