@@ -1,11 +1,5 @@
-﻿using Posterr.Shared.Core.Entities;
+﻿using Posterr.Users.Application.ViewModels;
 using Posterr.Users.Core.Repositories;
-using Posterr.Users.Infrastructure.Persistence.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Posterr.Users.Application.Services
 {
@@ -17,9 +11,17 @@ namespace Posterr.Users.Application.Services
             _repository = repository;
         }
 
-        public async Task<User?> GetByIdAsync(Guid id)
+        public async Task<UserViewModel> GetByIdAsync(Guid id)
         {
-            return await _repository.GetByIdAsync(id);
+            var user = await _repository.GetByIdAsync(id);
+
+            return new UserViewModel()
+            {
+                Id = user.Id,
+                Username = user.Username,
+                DateJoined = user.CreatedAt.ToString("MMMM dd, yyyy"),
+                PostsCount = user.Posts.Count,
+            };
         }
     }
 }

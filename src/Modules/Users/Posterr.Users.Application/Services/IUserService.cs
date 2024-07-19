@@ -1,4 +1,4 @@
-﻿using Posterr.Shared.Core.Entities;
+﻿using Posterr.Users.Application.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +9,6 @@ namespace Posterr.Users.Application.Services
 {
     public interface IUserService
     {
-        public Task<User?> GetByIdAsync(Guid id);
+        public Task<UserViewModel?> GetByIdAsync(Guid id);
     }
 }

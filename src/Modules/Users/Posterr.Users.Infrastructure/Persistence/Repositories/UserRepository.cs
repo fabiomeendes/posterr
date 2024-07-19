@@ -21,7 +21,7 @@ namespace Posterr.Users.Infrastructure.Persistence.Repositories
 
         public async Task<User?> GetByIdAsync(Guid id)
         {
-            var user = await _context.Users.SingleOrDefaultAsync(u => u.Id == id);
+            var user = await _context.Users.Include(x => x.Posts).SingleOrDefaultAsync(u => u.Id == id);
 
             return user;
         }
