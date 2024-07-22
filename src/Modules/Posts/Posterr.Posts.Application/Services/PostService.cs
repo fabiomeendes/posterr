@@ -1,10 +1,7 @@
-﻿using Posterr.Posts.Application.InputModels;
+﻿using Posterr.Posts.Application.Helpers;
+using Posterr.Posts.Application.InputModels;
 using Posterr.Posts.Core.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Posterr.Shared.Core.Enums;
 
 namespace Posterr.Posts.Application.Services
 {
@@ -16,11 +13,21 @@ namespace Posterr.Posts.Application.Services
             _repository = repository;
         }
 
-        public async Task<Guid> CreatePostAsync(CreatePostInputModel model)
+        public async Task<Guid> CreatePostAsync(CreatePostInputModel post)
         {
-            var entity = model.ToEntity();
+            if (post.PostReferenceId.HasValue)
+            {
+                var originalPost = await _repository.GetByIdAsync(post.PostReferenceId.Value);
 
-            return await _repository.CreatePostAsync(entity);
+                if (!post.CanPost(originalPost))
+                {
+                    throw new InvalidOperationException("Cannot post this type of post!");
+                }
+            }
+
+            var entity = post.ToEntity();
+
+            return await _repository.CreateAsync(entity);
         }
     }
 }

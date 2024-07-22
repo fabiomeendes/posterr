@@ -13,8 +13,9 @@ namespace Posterr.Posts.Application.InputModels
         public string Content { get; set; }
         public PostType PostType { get; set; }
         public Guid UserId { get; set; }
+        public Guid? PostReferenceId { get; set; }
 
         public Post ToEntity()
-            => new Post(Content, UserId);
+            => new Post(Content, UserId, PostType, PostReferenceId);
     }
 }

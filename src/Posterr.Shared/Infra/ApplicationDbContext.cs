@@ -61,15 +61,14 @@ namespace Posterr.Shared.Infra
                     Content = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
                     PostType = PostType.OriginalPost,
                     UserId = new Guid("d5805053-ee9c-47db-8900-18aae2d08f35"),
-                    CreatedAt = new DateTime(2024, 7, 18),
+                    CreatedAt = new DateTime(2024, 1, 18),
                 },
                 new
                 {
                     Id = new Guid("29d5f8eb-f438-4c83-b98a-b49900cfb625"),
-                    Content = "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
                     PostType = PostType.Repost,
                     UserId = new Guid("aef145ca-aa9b-4d6f-b8ab-56709b51bb21"),
-                    CreatedAt = new DateTime(2024, 7, 18),
+                    CreatedAt = new DateTime(2024, 5, 18),
                     PostReferenceId = new Guid("d935e070-dc0e-491b-ad52-a1415385bac5"),
                 });
         }

@@ -2,11 +2,6 @@
 using Posterr.Posts.Core.Repositories;
 using Posterr.Shared.Core.Entities;
 using Posterr.Shared.Infra;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Posterr.Posts.Infrastructure.Persistence.Repositories
 {
@@ -19,13 +14,20 @@ namespace Posterr.Posts.Infrastructure.Persistence.Repositories
             _context = context;
         }
 
-        public async Task<Guid> CreatePostAsync(Post model)
+        public async Task<Guid> CreateAsync(Post model)
         {
             await _context.Posts.AddAsync(model);
 
             await _context.SaveChangesAsync();
 
             return model.Id;
+        }
+
+        public async Task<Post?> GetByIdAsync(Guid id)
+        {
+            var post = await _context.Posts.SingleOrDefaultAsync(u => u.Id == id);
+
+            return post;
         }
     }
 }
